@@ -1,0 +1,127 @@
+html {
+  margin: 0;
+  padding: 0.3rem;
+  background: rgb(255, 248, 170);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 248, 170, 1) 28%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-weight: normal;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  margin: 10px 0px;
+}
+
+.main {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.align-to-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo div img {
+  height: 6rem;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-container {
+  flex: 1;
+  align-items: center;
+}
+
+.left-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-container div img {
+  width: 100%;
+  justify-content: center;
+}
+
+.right-container {
+  flex: 2;
+}
+
+.right-container div img {
+  width: 100%;
+}
+
+.appliances img {
+  width: 75%;
+}
+
+hr {
+  border-top: 2px solid red;
+  width: 100%;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.categories p {
+  margin: 0;
+}
+
+.red-color {
+  color: red;
+}
+
+.contact-footer {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+}
+
+.card div img {
+  height: 32px;
+  width: 32px;
+  margin: 0 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+a {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .top-container {
+    flex-direction: column;
+  }
+  .left-container div img {
+    height: 50vh;
+    width: auto;
+  }
+
+  .contact-footer {
+    flex-direction: column;
+  }
+}
