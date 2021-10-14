@@ -1,1 +1,1 @@
-Front of website made with react
+Front-end of website made with react
